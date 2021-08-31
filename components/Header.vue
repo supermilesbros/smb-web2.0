@@ -22,7 +22,7 @@
                                 <span></span>
                             </button>
                             <n-link to="/contact" class="btn-theme btn-style">
-                                Get A Free Quote 
+                                Get A Quote 
                                 <i class="icon-style icofont-double-right"></i>
                             </n-link>
                         </div>
