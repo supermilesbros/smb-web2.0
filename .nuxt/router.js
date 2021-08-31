@@ -4,15 +4,15 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1d224b61 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _6025d5fe = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
-const _308322f3 = () => interopDefault(import('..\\pages\\blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
-const _6039cb74 = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
-const _25c4cded = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
-const _29c2883c = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
-const _2a4dc8ee = () => interopDefault(import('..\\pages\\service.vue' /* webpackChunkName: "pages/service" */))
-const _4b49ad7e = () => interopDefault(import('..\\pages\\service-details.vue' /* webpackChunkName: "pages/service-details" */))
-const _3cda2626 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _bc2bfd34 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _c386694e = () => interopDefault(import('..\\pages\\blog.vue' /* webpackChunkName: "pages/blog" */))
+const _2b288d4e = () => interopDefault(import('..\\pages\\blog-details.vue' /* webpackChunkName: "pages/blog-details" */))
+const _5c27d78e = () => interopDefault(import('..\\pages\\contact.vue' /* webpackChunkName: "pages/contact" */))
+const _d111d29c = () => interopDefault(import('..\\pages\\project.vue' /* webpackChunkName: "pages/project" */))
+const _3a9b20b2 = () => interopDefault(import('..\\pages\\project-details.vue' /* webpackChunkName: "pages/project-details" */))
+const _5c8b644e = () => interopDefault(import('..\\pages\\service.vue' /* webpackChunkName: "pages/service" */))
+const _42dd6143 = () => interopDefault(import('..\\pages\\service-details.vue' /* webpackChunkName: "pages/service-details" */))
+const _7cbc47aa = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -27,39 +27,39 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _1d224b61,
+    component: _bc2bfd34,
     name: "about"
   }, {
     path: "/blog",
-    component: _6025d5fe,
+    component: _c386694e,
     name: "blog"
   }, {
     path: "/blog-details",
-    component: _308322f3,
+    component: _2b288d4e,
     name: "blog-details"
   }, {
     path: "/contact",
-    component: _6039cb74,
+    component: _5c27d78e,
     name: "contact"
   }, {
     path: "/project",
-    component: _25c4cded,
+    component: _d111d29c,
     name: "project"
   }, {
     path: "/project-details",
-    component: _29c2883c,
+    component: _3a9b20b2,
     name: "project-details"
   }, {
     path: "/service",
-    component: _2a4dc8ee,
+    component: _5c8b644e,
     name: "service"
   }, {
     path: "/service-details",
-    component: _4b49ad7e,
+    component: _42dd6143,
     name: "service-details"
   }, {
     path: "/",
-    component: _3cda2626,
+    component: _7cbc47aa,
     name: "index"
   }],
 
