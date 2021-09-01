@@ -5,13 +5,13 @@
                 <div class="col-lg-8">
                     <div class="faq-content" data-aos="fade-up" data-aos-duration="1100">
                         <div class="section-title xs-text-center">
-                            <h2 class="title text-white">You Are Confused! Question & <span class="bottom-color-style2">Answers.</span></h2>
+                            <h2 class="title text-white">Need Some Help? Question & <span class="bottom-color-style2">Answers.</span></h2>
                         </div>
                         <div class="accordion-content">
                             <AccordionStyleOne />
                         </div>
                         <div class="text-center">
-                            <a href="#" class="btn btn-theme btn-white btn-border">Click For Others Question & Answer <i class="icon icofont-long-arrow-right"></i></a>
+                            <a href="/contact" class="btn btn-theme btn-white btn-border">I have a more specific question <i class="icon icofont-long-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>

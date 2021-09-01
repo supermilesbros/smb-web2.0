@@ -7,23 +7,13 @@
 
         <HeroSlider />
 
-        <AboutOne />
-
-        <FunFactOne />
-
         <ServiceOne />
 
         <FaqOne />
 
         <TeamSection class="team-default-area" />
 
-        <PortfolioSection />
-
-        <TestimonialOne />
-
         <BrandLogoSection />
-
-        <BlogSection />
 
         <ContactDevider />
 

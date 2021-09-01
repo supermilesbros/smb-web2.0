@@ -21,11 +21,32 @@
     "_name": "_2b288d4e"
   },
   {
+    "name": "brand-identity",
+    "path": "/brand-identity",
+    "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\brand-identity.vue",
+    "chunkName": "pages/brand-identity",
+    "_name": "_7b3b503b"
+  },
+  {
     "name": "contact",
     "path": "/contact",
     "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
     "_name": "_5c27d78e"
+  },
+  {
+    "name": "content-creation",
+    "path": "/content-creation",
+    "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\content-creation.vue",
+    "chunkName": "pages/content-creation",
+    "_name": "_dbe6ab2c"
+  },
+  {
+    "name": "marketing",
+    "path": "/marketing",
+    "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\marketing.vue",
+    "chunkName": "pages/marketing",
+    "_name": "_0700eaff"
   },
   {
     "name": "project",
@@ -42,6 +63,13 @@
     "_name": "_3a9b20b2"
   },
   {
+    "name": "seo",
+    "path": "/seo",
+    "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\seo.vue",
+    "chunkName": "pages/seo",
+    "_name": "_21832e76"
+  },
+  {
     "name": "service",
     "path": "/service",
     "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\service.vue",
@@ -54,6 +82,13 @@
     "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\service-details.vue",
     "chunkName": "pages/service-details",
     "_name": "_42dd6143"
+  },
+  {
+    "name": "web-development",
+    "path": "/web-development",
+    "component": "C:\\\\Users\\\\jared\\\\Documents\\\\SMB\\\\smb-web\\\\smb-web2.0\\\\pages\\\\web-development.vue",
+    "chunkName": "pages/web-development",
+    "_name": "_d89bcb4a"
   },
   {
     "name": "index",

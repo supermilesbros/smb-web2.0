@@ -18,32 +18,38 @@
                     {
                         icon: "/images/icons/s1.png",
                         title: "Web Development",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        desc: "Every brand needs a home and we can build it together. From quick turnaround templated solutions to a fully custom websites that accomadates your every need.",
+                        to: "/web-development"
                     },
                     {
-                        icon: "/images/icons/s2.png",
-                        title: "Market Analysis",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/s5.png",
+                        title: "SEO",
+                        desc: "Once you have a home online you need to help your potential clients find it. We know all the tricks to get you ranking high in online searches and beat the competition.",
+                        to: "/seo"
                     },
                     {
                         icon: "/images/icons/s3.png",
                         title: "Brand Identity",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        desc: "From logos to in-store signage we can help craft brand assets that will capture new and returning clients and make your branding something to remember.",
+                        to: "/brand-identity"
                     },
                     {
                         icon: "/images/icons/s4.png",
-                        title: "Business Consultation",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        title: "Content Creation",
+                        desc: "We create engaging content that cuts through the noise and reaches your audience.",
+                        to: "/content-creation"
                     },
                     {
-                        icon: "/images/icons/s5.png",
-                        title: "SEO Marketing",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/c2.png",
+                        title: "Content Distribution",
+                        desc: "Is your plate a little full? With a growing number of platforms wanting your attention, let us distibute your message for you.",
+                        to: "/content-creation"
                     },
                     {
-                        icon: "/images/icons/s6.png",
-                        title: "UX & UI Design",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/s2.png",
+                        title: "Marketing",
+                        desc: "Together we can meet your new clients where their attention really is. From social lead genereation to youtube pre-roll ads.",
+                        to: "/marketing"
                     },
                 ]
             }

@@ -9,7 +9,7 @@
                                 <img src="/images/shape/line1.png" alt="shape">
                                 <h5>Contact Us.</h5>
                             </div>
-                            <h2 class="title">Contact Us For Any Information of <span class="bottom-style">Company.</span></h2>
+                            <h2 class="title">Reach Out And Get Started <span class="bottom-style">Today.</span></h2>
                         </div>
                     </div>
                 </div>

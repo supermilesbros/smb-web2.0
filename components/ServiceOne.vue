@@ -6,11 +6,11 @@
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
                         <h2 class="title">What We Do?</h2>
                         <div class="separator-line mt-14">
-                            <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
                             <img src="/images/shape/line-s1.png" alt="Images">
+                            <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
                         </div>
                         <div class="desc">
-                            <p class="mt-21">Lorem Ipsum is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the printer took</p>
+                            <p class="mt-21">Whether you are a just starting out or have been in business for years we have the skills to get your company where you want to go.</p>
                         </div>
                     </div>
                 </div>
@@ -36,32 +36,32 @@
                     {
                         icon: "/images/icons/s1.png",
                         title: "Web Development",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        desc: "Every brand needs a home and we can build it together. From quick turnaround templated solutions to a fully custom websites that accomadates your every need."
                     },
                     {
-                        icon: "/images/icons/s2.png",
-                        title: "Market Analysis",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/s5.png",
+                        title: "SEO",
+                        desc: "Once you have a home online you need to help your potential clients find it. We know all the tricks to get you ranking high in online searches and beat the competition."
                     },
                     {
                         icon: "/images/icons/s3.png",
                         title: "Brand Identity",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        desc: "From logos to in-store signage we can help craft brand assets that will capture new and returning clients and make your branding something to remember."
                     },
                     {
                         icon: "/images/icons/s4.png",
-                        title: "Business Consultation",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        title: "Content Creation",
+                        desc: "We create engaging content that cuts through the noise and reaches your audience."
                     },
                     {
-                        icon: "/images/icons/s5.png",
-                        title: "SEO Marketing",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/c2.png",
+                        title: "Content Distribution",
+                        desc: "Is your plate a little full? With a growing number of platforms wanting your attention, let us distibute your message for you."
                     },
                     {
-                        icon: "/images/icons/s6.png",
-                        title: "UX & UI Design",
-                        desc: "Lorem Ipsum is simply dummy text the printing and typesetting industry has been the industry's standard."
+                        icon: "/images/icons/s2.png",
+                        title: "Marketing",
+                        desc: "Together we can meet your new clients where their attention really is. From social lead genereation to youtube pre-roll ads."
                     },
                 ]
             }
