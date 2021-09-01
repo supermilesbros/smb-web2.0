@@ -9,7 +9,7 @@
             </div>
             <h4>{{ service.title }}</h4>
             <p>{{ service.desc }}</p>
-            <a :href="service.to" class="btn-link">Learn More <i class="icon icofont-arrow-right"></i></a>
+            <n-link :to="service.to" class="btn-link">Learn More <i class="icon icofont-arrow-right"></i></n-link>
         </div>
         <div class="icon-shape">
             <img class="shape-img1" src="/images/shape/s1.png" alt="Icon">
@@ -20,6 +20,7 @@
 </template>
 
 <script>
+
     export default {
         props: ['service']
     };
