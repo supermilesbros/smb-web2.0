@@ -109,9 +109,9 @@
         </div>
         <div class="home-slider-sidebar" data-aos="fade-zoom-in" data-aos-duration="1300">
             <div class="social-icon">
-                <a href="#"><i class="icofont-facebook"></i></a>
-                <a href="#"><i class="icofont-skype"></i></a>
-                <a href="#"><i class="icofont-twitter"></i></a>
+                <a href="https://www.facebook.com/supermilesbros"><i class="icofont-facebook"></i></a>
+                <a href="https://www.instagram.com/supermilesbros/"><i class="icofont-instagram"></i></a>
+                <a href="https://www.tiktok.com/@supermilesbros?lang=en"><i class="fab fa-tiktok"></i></a>
             </div>
         </div>
     </section>
