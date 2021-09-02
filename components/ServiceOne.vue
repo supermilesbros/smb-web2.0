@@ -56,7 +56,7 @@
                     {
                         icon: "/images/icons/c2.png",
                         title: "Content Distribution",
-                        desc: "Is your plate a little full? With a growing number of platforms wanting your attention, let us distibute your message for you."
+                        desc: "Is your plate a little full? With a growing number of platforms wanting your attention, let us distribute your message for you."
                     },
                     {
                         icon: "/images/icons/s2.png",
