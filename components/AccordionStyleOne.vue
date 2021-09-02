@@ -31,7 +31,7 @@
             <b-collapse id="accordion-2" visible accordion="my-accordion">
                 <b-card-body>
                     <b-card-text class="text-dark">
-                        Websites depending on their complexity can take anywhere from a week to going live all the way to a few months. We offer a ready to go option that you can choose from any number of templates and have a website in no time. Or if you want the full development experience we will design then code the site to your exact specifications.
+                        Websites depending on their complexity can take anywhere from a week to going live all the way to a few months. We offer a ready to go option that you can choose from a number of templates and have a website up in no time. Or if you want the full development experience we will design then code the site to your exact specifications.
                     </b-card-text>
                 </b-card-body>
             </b-collapse>

@@ -10,7 +10,7 @@
                             <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
                         </div>
                         <div class="desc">
-                            <p class="mt-21">Both of us bring a very specific set of skills and experience to the table. This seperation of responsibilities allows us to work efficiently to solve problems quickly and make adjustments even faster. We are a team of two and in our experience you can get a lot further much faster in a speedboat than in a cruise ship.</p>
+                            <p class="mt-21">Each of us bring a very specific set of skills and experience to the table. This seperation of responsibilities allows us to work efficiently to solve problems quickly and make adjustments even faster. We are a team of two and in our experience you can get a lot further much faster in a speedboat than in a cruise ship.</p>
                         </div>
                     </div>
                 </div>
