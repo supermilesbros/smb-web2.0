@@ -4,7 +4,7 @@
             <div class="row">
                 <div class="col-lg-8 m-auto">
                     <div class="section-title text-center" data-aos="fade-up" data-aos-duration="1000">
-                        <h2 class="title">YOUR DYNAMIC DUO</h2>
+                        <h2 class="title">A DYNAMIC DUO</h2>
                         <div class="separator-line mt-14">
                             <img src="/images/shape/line-s1.png" alt="Images">
                             <img class="me-1" src="/images/shape/line-s2.png" alt="Images">
