@@ -3,7 +3,10 @@
         <li>
             <n-link to="/">Home</n-link>
         </li>
-        <li class="has-submenu">
+        <li>
+            <n-link to="/service">Services</n-link>
+        </li>
+        <!-- <li class="has-submenu">
             <n-link to="/service">Services</n-link>
             <ul class="submenu-nav">
                 <li>
@@ -25,7 +28,7 @@
                     <n-link to="/marketing">Marketing</n-link>
                 </li>
             </ul>
-        </li>
+        </li> -->
         <li>
             <n-link to="/contact">Contact</n-link>
         </li>

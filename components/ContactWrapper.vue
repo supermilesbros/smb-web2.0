@@ -61,22 +61,22 @@
                                 <div class="row">
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" type="text" name="con_name" placeholder="Name">
+                                            <input v-model="formData.name" class="form-control" type="text" name="con_name" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" type="email" name="con_email" placeholder="Email">
+                                            <input v-model="formData.email" class="form-control" type="email" name="con_email" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input class="form-control" type="text" name="con_phone" placeholder="Phone">
+                                            <input v-model="formData.phone" class="form-control" type="text" name="con_phone" placeholder="Phone">
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group mb-0">
-                                            <textarea name="con_message" placeholder="Message"></textarea>
+                                            <textarea v-model="formData.message" name="con_message" placeholder="Message"></textarea>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
@@ -95,7 +95,67 @@
 </template>
 
 <script>
+import { fireDb } from '~/plugins/firebase.js'
     export default {
+        data() {
+        return {
+          formData: {
+            name: '',
+            email: '',
+            message: '',
+            phone: ''
+          }
+        }
+
+      },
+      methods: {
+        reset() {
+            this.formData.name = "",
+            this.formData.email = "",
+            this.formData.message = ""
+        },
+        async writeToFirestore() {
+            console.log("started submit")
+      const fName = this.formData.name
+      console.log(fName)
+      const ref = fireDb.collection('memberContact').doc(fName)
+      const mail = fireDb.collection('mail').doc(fName)
+      const createdAt = new Date().toUTCString()
+      const document = {
+        name: fName,
+        email: this.formData.email,
+        message: this.formData.message,
+        time: createdAt
+      }
+      const mailDoc = {
+        to: [
+          'konnie@recoveryroomusa.com',
+          'gheld@recoveryroomusa.com'
+        ],
+        message: {
+          subject: fName + ' ' + 'New Contact Form',
+          text:
+            this.formData.message +
+            ' ' +
+            fName +
+            ' ' +
+            this.formData.email
+        }
+      }
+      try {
+        await ref.set(document)
+        await mail.set(mailDoc)
+      } catch (e) {
+        // TODO: error handling
+      }
+      this.writeSuccessful = true
+      this.reset()
+      this.$router.push('/contact-thank')
+    },
+    test() {
+        console.log("test")
+    }
+    }
 
     };
 </script>
