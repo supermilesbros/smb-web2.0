@@ -81,7 +81,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group mb-0">
-                                            <button class="btn btn-theme" type="submit">Submit Now <i class="icofont-long-arrow-right"></i></button>
+                                            <button @click="writeToFirestore" class="btn btn-theme" type="submit">Submit Now <i class="icofont-long-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
