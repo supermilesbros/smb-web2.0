@@ -81,7 +81,7 @@
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group mb-0">
-                                            <button @click="writeToFirestore" class="btn btn-theme" type="submit">Submit Now <i class="icofont-long-arrow-right"></i></button>
+                                            <button @click.prevent="writeToFirestore()" class="btn btn-theme" type="submit">Submit Now <i class="icofont-long-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </div>
@@ -112,45 +112,30 @@ import { fireDb } from '~/plugins/firebase.js'
         reset() {
             this.formData.name = "",
             this.formData.email = "",
-            this.formData.message = ""
+            this.formData.message = "",
+            this.formData.phone = ""
         },
         async writeToFirestore() {
             console.log("started submit")
       const fName = this.formData.name
       console.log(fName)
-      const ref = fireDb.collection('memberContact').doc(fName)
-      const mail = fireDb.collection('mail').doc(fName)
+      const ref = fireDb.collection('newContact').doc(fName)
       const createdAt = new Date().toUTCString()
       const document = {
         name: fName,
         email: this.formData.email,
         message: this.formData.message,
+        phone: this.formData.phone,
         time: createdAt
       }
-      const mailDoc = {
-        to: [
-          'konnie@recoveryroomusa.com',
-          'gheld@recoveryroomusa.com'
-        ],
-        message: {
-          subject: fName + ' ' + 'New Contact Form',
-          text:
-            this.formData.message +
-            ' ' +
-            fName +
-            ' ' +
-            this.formData.email
-        }
-      }
+      
       try {
         await ref.set(document)
-        await mail.set(mailDoc)
       } catch (e) {
-        // TODO: error handling
+        console.log(e)
       }
       this.writeSuccessful = true
       this.reset()
-      this.$router.push('/contact-thank')
     },
     test() {
         console.log("test")
