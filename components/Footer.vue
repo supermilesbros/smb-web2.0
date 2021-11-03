@@ -60,16 +60,16 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Web Development</n-link></li>
-                                        <li><n-link to="/service-details">SEO</n-link></li>
-                                        <li><n-link to="/service-details">Brand Identity</n-link></li>
+                                        <li><n-link to="/services">Web Development</n-link></li>
+                                        <li><n-link to="/services">SEO</n-link></li>
+                                        <li><n-link to="/services">Brand Identity</n-link></li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6">
                                     <ul class="nav-menu nav">
-                                        <li><n-link to="/service-details">Content Creation</n-link></li>
-                                        <li><n-link to="/service-details">Content Distribution</n-link></li>
-                                        <li><n-link to="/service-details">Marketing</n-link></li>
+                                        <li><n-link to="/services">Content Creation</n-link></li>
+                                        <li><n-link to="/services">Content Distribution</n-link></li>
+                                        <li><n-link to="/services">Marketing</n-link></li>
                                     </ul>
                                 </div>
                             </div>
