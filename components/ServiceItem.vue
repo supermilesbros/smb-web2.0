@@ -9,7 +9,6 @@
             </div>
             <h4>{{ service.title }}</h4>
             <p>{{ service.desc }}</p>
-            <a :href="service.url" class="btn-link">Learn More <i class="icon icofont-arrow-right"></i></a>
         </div>
         <div class="icon-shape">
             <img class="shape-img1" src="/images/shape/s1.png" alt="Icon">
