@@ -19,8 +19,8 @@
           <div class="content">
             <h4>Email.</h4>
             <img class="line-icon" src="/images/shape/line-s1.png" alt="Icon" />
-            <a href="mailto://john@supermilesbros.com"
-              >john@supermilesbros.com</a
+            <a href="mailto://jared@supermilesbros.com"
+              >jared@supermilesbros.com</a
             >
           </div>
         </div>
